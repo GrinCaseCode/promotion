@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="187" height="186" viewBox="0 0 187 186">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #221f1f;
+        fill-opacity: 0;
+        stroke-linejoin: round;
+        stroke-opacity: 0.77;
+        stroke-width: 2px;
+        stroke: url(#linear-gradient);
+        filter: url(#filter);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="30.656" y1="144.852" x2="155.438" y2="40.148" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#99d33c"/>
+      <stop offset="1" stop-color="#81c90f"/>
+    </linearGradient>
+    <filter id="filter" x="1" y="1" width="185" height="184" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="10" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-color="#b2fb3e" flood-opacity="0.25"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" mode="pinLight" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+      <feGaussianBlur result="blur-2" stdDeviation="4.333" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-color="#9af707" flood-opacity="0.94"/>
+      <feComposite result="composite-6" operator="out" in2="blur-2"/>
+      <feComposite result="composite-5" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-3" in2="blend-2"/>
+    </filter>
+  </defs>
+  <g style="fill: #221f1f; filter: url(#filter)">
+    <circle id="Ellipse_2_copy" data-name="Ellipse 2 copy" class="cls-1" cx="93.047" cy="92.5" r="62.391" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#Ellipse_2_copy" style="stroke: url(#linear-gradient); filter: none; fill: none"/>
+</svg>
